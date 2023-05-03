@@ -3169,6 +3169,10 @@ figcaption {
     margin-bottom: 4rem;
   }
 
+  .block-tight {
+    width: 100%;
+  }
+
   .p-0 {
     padding: 0;
   }
@@ -3208,6 +3212,11 @@ figcaption {
   .button-grid {
     width: 100%;
     justify-items: center;
+  }
+
+  .grid {
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -3384,12 +3393,17 @@ figcaption {
     padding-bottom: 0;
   }
 
-  .mb-0-5 {
-    margin-bottom: .5rem;
+  .card {
+    height: 200px;
   }
 
-  .h4 {
-    font-size: 1.5rem;
+  .link.inverted {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .mb-0-5 {
+    margin-bottom: .5rem;
   }
 
   .h4.inverted {
@@ -3398,20 +3412,11 @@ figcaption {
   }
 
   .h3 {
-    letter-spacing: -1px;
     line-height: 1;
   }
 
   .mobp-shown {
     display: block;
-  }
-
-  .h2 {
-    letter-spacing: -1px;
-  }
-
-  .h2.inverted {
-    letter-spacing: 1px;
   }
 
   .mr-0 {
@@ -3445,6 +3450,10 @@ figcaption {
 
   .m-0 {
     margin: 0;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
 
