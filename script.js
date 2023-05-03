@@ -6277,9 +6277,6 @@ __p+='`),
     be();
     _e();
 })();
-$(".iframe").each(function() {
-    $(this).attr("target","_blank");
-});
 /*!
  * tram.js v0.8.2-global
  * Cross-browser CSS3 transitions in JavaScript
