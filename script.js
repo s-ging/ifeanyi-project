@@ -6277,7 +6277,7 @@ __p+='`),
     be();
     _e();
 })();
-$(".ifr").each(function() {
+$(".iframe").each(function() {
     $(this).attr("target","_blank");
 });
 /*!
