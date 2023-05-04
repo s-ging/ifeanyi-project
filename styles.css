@@ -3042,6 +3042,9 @@ figcaption {
   resize:none; 
 }
 
+.width-full{
+  width: 100%;
+}
 
 @media screen and (min-width: 1440px) {
   .container {
