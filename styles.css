@@ -3046,6 +3046,10 @@ figcaption {
   width: 100%;
 }
 
+.h3.alt {
+  font-size: 36px;
+}
+
 @media screen and (min-width: 1440px) {
   .container {
     margin-left: auto;
