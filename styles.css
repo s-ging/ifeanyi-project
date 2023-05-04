@@ -3017,6 +3017,31 @@ figcaption {
   right: 0%;
 }
 
+.iframe-wrapper{
+  width: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+
+  position: relative;
+
+  -webkit-resize:vertical; 
+  -moz-resize:vertical;
+  resize:vertical;
+  min-height:317px;
+}
+
+.ifr{
+  position: absolute;
+  top: -100px;
+  overflow: hidden;
+  
+
+  -webkit-resize:none;
+  -moz-resize:none;
+  resize:none; 
+}
+
+
 @media screen and (min-width: 1440px) {
   .container {
     margin-left: auto;
