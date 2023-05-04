@@ -3024,6 +3024,7 @@ figcaption {
   overflow-x: hidden;
 
   position: relative;
+  transition: all 0.25s;
 
   -webkit-resize:vertical; 
   -moz-resize:vertical;
@@ -3031,12 +3032,19 @@ figcaption {
   min-height:317px;
 }
 
+.iframe-wrapper:hover{
+  opacity: .8;
+}
+
 .ifr{
   position: absolute;
   top: -200px;
   overflow: hidden;
-  
+  z-index: -1;
+  pointer-events: none;
 
+
+  transition: all 0.25s;
   -webkit-resize:none;
   -moz-resize:none;
   resize:none; 
@@ -3048,6 +3056,24 @@ figcaption {
 
 .h3.alt {
   font-size: 36px;
+}
+
+.absolute.full{
+  color:hsla(360, 100%, 100%, 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+transition: all 0.25s;
+
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+.absolute.full:hover{
+  color:hsla(360, 100%, 100%, 100%);
 }
 
 @media screen and (min-width: 1440px) {
